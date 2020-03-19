@@ -1,6 +1,6 @@
 resource "aws_instance" "lab-example" {
   ami                         = "ami-0022ebeda476ffd59"
-  count                       = 1
+  count                       = 0
   //instance_type               = "t2.large"
   instance_type               = "t2.micro"
   key_name                    = "Hennessy-Mac"
