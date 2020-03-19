@@ -9,7 +9,7 @@ resource "aws_instance" "lab-example" {
 
   tags = {
     Name    = "datadog"
-    datadog = "yes"
+    datadog = "no"
   }
 
 }
